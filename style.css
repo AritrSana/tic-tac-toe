@@ -1,0 +1,81 @@
+/** @format */
+
+:root {
+  --borderRadius: 10%;
+  --font👪: sans-serif;
+  --padBody📦: 0;
+  --marBody😼: 0;
+}
+
+* {
+  margin: var(--marBody😼);
+  padding: var(--padBody📦);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font👪);
+}
+
+td {
+  border: 2px solid #333 !important;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Comic Sans Ms", cursive, sans-serif;
+  font-size: 70px;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+}
+table tr:first-child td {
+  border-top: 0 !important;
+}
+table tr:last-child td {
+  border-bottom: 0 !important;
+}
+table tr td:first-child {
+  border-left: 0 !important;
+}
+table tr td:last-child {
+  border-right: 0 !important;
+}
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: var(--borderRadius);
+  color: white;
+  font-size: 2em;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #464646;
+  font-size: 0.5em;
+  font-weight: bold;
+  color: #464646;
+  transition: 0.5s all ease;
+}
+
+.btn:hover {
+  background-color: #464646;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+}
